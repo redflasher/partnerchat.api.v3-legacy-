@@ -1,0 +1,8 @@
+/.idea/*
+node_modules/*
+!/node_modules/partner-db
+.env
+/cert2/*
+/cert/*
+/*apns-push-certs/*
+*.pem

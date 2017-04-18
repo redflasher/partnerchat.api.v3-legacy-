@@ -1,0 +1,41 @@
+{
+  "name": "partner-node-ws-server",
+  "version": "1.0.0",
+  "description": "WebSocket server for PartnerApps",
+  "main": "main.js",
+  "dependencies": {
+    "console-stamp": "^0.2.2",
+    "dotenv": "^2.0.0",
+    "express": "^4.10.2",
+    "mysql": "^2.10.2",
+    "node-gcm": "^0.14.4",
+    "node-mysql": "^0.4.2",
+    "sha1": "^1.1.1",
+    "socket.io": "^1.4.6",
+    "socket.io-client": "^1.4.6",
+    "colors":"*",
+    "validator":"*",
+    "request":"*",
+    "apn":"*",
+    "amqplib":"*"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://businesschatadmin@bitbucket.org/businesschat/api-v3.git"
+  },
+  "keywords": [
+    "ws",
+    "node.js",
+    "finance",
+    "partner"
+  ],
+  "author": "Alexey Burlakov",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/businesschat/api-v3#readme"
+}
